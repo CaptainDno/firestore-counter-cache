@@ -1,4 +1,4 @@
-module go-counter-map
+module firestore_counter_cache
 
 go 1.21.1
 
