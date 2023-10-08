@@ -1,4 +1,4 @@
-module firestore_counter_cache
+module firestore-counter-cache
 
 go 1.21.1
 
