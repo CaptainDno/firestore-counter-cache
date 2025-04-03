@@ -3,7 +3,7 @@
 Firestore has limitations on how often one document can be updated + frequent updates add up to costs.
 So if there is no need in realtime updates, we can cache counter delta in memory and then commit to Firestore.
 
-It is basically simpler implementation of `sync.Map`.
+It is basically a simpler implementation of `sync.Map`.
 
 Example usage:
 ```go
